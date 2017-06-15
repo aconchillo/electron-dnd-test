@@ -27,3 +27,5 @@ Clone the repo and then type:
     $ npm start
 
 Then, do what the window tells you to do.
+
+**Note:** Run it inside tmux if you want it not to work.
