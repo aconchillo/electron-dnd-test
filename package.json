@@ -1,0 +1,15 @@
+{
+  "name": "electron-drap-n-drop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^1.6.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "author": "Aleix Conchillo Flaque",
+  "license": "UNLICENSED"
+}
