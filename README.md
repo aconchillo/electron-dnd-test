@@ -29,3 +29,16 @@ Clone the repo and then type:
 Then, do what the window tells you to do.
 
 **Note:** Run it inside tmux if you want it not to work.
+
+# The fix
+
+I was pointed to the [tmux-MacOSX-pasteboard](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
+project. Basically, do this:
+
+    $ brew install reattach-to-user-namespace
+
+Then add the following line to you tmux configuration file (~/.tmux.conf):
+
+    set-option -g default-command "reattach-to-user-namespace -l zsh"
+
+Restart tmux and try again.
